@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
+
 <html>
 <head>
-	<title>Scacchiera</title>
+	<title>Scacchiera </title>
 	<meta charset=utf-8">
 	<style type="text/css">
 	body {margin: 2em; padding: 0; color: #000; background: #fff; font-family: Arial, sans-serif;}
@@ -39,35 +40,35 @@
 	padding-right: 0.5em;
 	}
 	
-	.black {background: #040404;}
-	.white {background: #F9F9F9;}
+	.black {background: #ddd;}
+	.white {background: #fff;}
 	</style>
 </head>
 
 <body>
-<table class="board">
+<table class="board" summary="Chess with CSS">
 <tr>
 <th scope="row">8</th>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
+<td class="black">&#9820;</td>
+<td class="white">&#9822;</td>
+<td class="black">&#9821;</td>
+<td class="white">&#9818;</td>
+<td class="black">&#9819;</td>
+<td class="white">&#9821;</td>
+<td class="black">&#9822;</td>
+<td class="white">&#9820;</td>
 </tr>
 
 <tr>
 <th scope="row">7</th>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
+<td class="white">&#9823;</td>
+<td class="black">&#9823;</td>
+<td class="white">&#9823;</td>
+<td class="black">&#9823;</td>
+<td class="white">&#9823;</td>
+<td class="black">&#9823;</td>
+<td class="white">&#9823;</td>
+<td class="black">&#9823;</td>
 </tr>
 
 <tr>
@@ -120,26 +121,26 @@
 
 <tr>
 <th scope="row">2</th>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
+<td class="black">&#9817;</td>
+<td class="white">&#9817;</td>
+<td class="black">&#9817;</td>
+<td class="white">&#9817;</td>
+<td class="black">&#9817;</td>
+<td class="white">&#9817;</td>
+<td class="black">&#9817;</td>
+<td class="white">&#9817;</td>
 </tr>
 
 <tr>
 <th scope="row">1</th>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
-<td class="white"></td>
-<td class="black"></td>
+<td class="white">&#9814;</td>
+<td class="black">&#9816;</td>
+<td class="white">&#9815;</td>
+<td class="black">&#9812;</td>
+<td class="white">&#9813;</td>
+<td class="black">&#9815;</td>
+<td class="white">&#9816;</td>
+<td class="black">&#9814;</td>
 </tr>
 
 <tr>
@@ -155,5 +156,6 @@
 </tr>
 
 </table>
+
 </body>
 </html>
