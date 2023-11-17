@@ -2,8 +2,8 @@
 
 <html>
 <head>
-	<title>Scacchiera </title>
-	<meta charset=utf-8">
+	<title>Scacchiera</title>
+	<meta charset=utf-8>
 	<style type="text/css">
 	body {margin: 2em; padding: 0; color: #000; background: #fff; font-family: Arial, sans-serif;}
 	
@@ -46,7 +46,7 @@
 </head>
 
 <body>
-<table class="board" summary="Chess with CSS">
+<table class="board">
 <tr>
 <th scope="row">8</th>
 <td class="black">&#9820;</td>
