@@ -3,9 +3,9 @@
 <html>
 <head>
 	<title>Scacchiera</title>
-	<meta charset=utf-8>
+	<meta charset = utf-8>
 	<style type="text/css">
-	body {margin: 2em; padding: 0; color: #000; background: #fff; font-family: Arial, sans-serif;}
+	body {margin: 2em; padding: 0; color: #000; font-family: Arial, sans-serif;}
 	
 	.board {
 	width: 600px;
@@ -39,9 +39,6 @@
 	min-height: 75px;
 	padding-right: 0.5em;
 	}
-	
-	.black {background: #ddd;}
-	.white {background: #fff;}
 	</style>
 </head>
 
