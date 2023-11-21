@@ -6,42 +6,22 @@
 	<meta charset = utf-8>
 	<style type="text/css">
 	body {margin: 2em; padding: 0; color: #000; font-family: Arial, sans-serif;}
-	
-	.board {
-	width: 600px;
-	margin: 0;
-	padding: 0;
-	border-collapse: collapse;
-	border-spacing: 0;
-	border: none;
-	}
-	
-	.board td {
-	vertical-align: middle;
-	font-size: 2em;
-	padding: 0.2em;
-	border: 1px solid #000;
-	text-align: center;
-	width: 75px;
-	height: 75px;
-	min-height: 75px;
-	}
-	
-	.board td.none {border: none; text-align: center; font-size: 1em; font-weight: bold;}
-	
-	.board th {
-	border: none;
-	vertical-align: middle;
-	text-align: center;
-	font-weight: bold;
-	width: 75px;
-	height: 75px;
-	min-height: 75px;
-	padding-right: 0.5em;
-	}
 	</style>
 </head>
-
+table {
+	border : 1px solid black;
+	}
+table tr td{
+	border : 1px solid black;
+	width : 100px;
+	height : 100px;
+	}
+table tr .w{
+	background-color: white;
+	}
+table tr .b{
+	background-color:black;
+	}
 <body>
 <table class="board">
 <tr>
