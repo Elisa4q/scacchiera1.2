@@ -5,10 +5,7 @@
 	<title>Scacchiera</title>
 	<meta charset = utf-8>
 	<style type="text/css">
-	body {margin: 2em; padding: 0; color: #000; font-family: Arial, sans-serif;}
-	</style>
-</head>
-table {
+	body {table {
 	border : 1px solid black;
 	}
 table tr td{
@@ -21,7 +18,10 @@ table tr .w{
 	}
 table tr .b{
 	background-color:black;
-	}
+	}}
+	</style>
+</head>
+
 <body>
 <table class="board">
 <tr>
