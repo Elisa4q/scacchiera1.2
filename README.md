@@ -5,20 +5,7 @@
 	<title>Scacchiera</title>
 	<meta charset = utf-8>
 	<style type="text/css">
-	body {table {
-	border : 1px solid black;
-	}
-table tr td{
-	border : 1px solid black;
-	width : 100px;
-	height : 100px;
-	}
-table tr .w{
-	background-color: white;
-	}
-table tr .b{
-	background-color:black;
-	}}
+	body {margin: 2em; padding: 0; color: #000; background: #fff; font-family: Arial, sans-serif;}
 	</style>
 </head>
 
